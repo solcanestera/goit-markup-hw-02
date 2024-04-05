@@ -1,0 +1,45 @@
+:root {
+    --blue: #2196F3;
+    --gray: #757575;
+    --black: #212121;
+    --white: #FFFFFF;
+    --primary-font: 'Roboto';
+    --secondary-font: 'Raleway';
+}
+
+.header {
+
+}
+
+.header__logo a {
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30.52px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.header__navigation ul {
+    list-style: none;
+
+}
+
+.header__navigation a{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 2%;
+}
+
+.header__info a{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 2%;
+}
