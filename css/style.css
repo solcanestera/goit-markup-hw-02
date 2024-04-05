@@ -21,6 +21,7 @@
     letter-spacing: 0.03em;
     text-align: left;
     
+    
 }
 
 .header__navigation a {
@@ -64,6 +65,7 @@
 
 }
 h3 {
+    list-style: none;
     text-decoration: none;
     font-family: Roboto;
     font-size: 14px;
@@ -87,7 +89,15 @@ h3 {
  
 }
 
-
+h2 {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #212121;
+}
 
 
 
