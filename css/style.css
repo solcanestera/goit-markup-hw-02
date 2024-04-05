@@ -13,20 +13,18 @@
 
 .header__logo a {
     text-decoration: none;
+    list-style: none;
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
     line-height: 30.52px;
     letter-spacing: 0.03em;
     text-align: left;
+    
 }
 
-.header__navigation ul {
+.header__navigation a {
     list-style: none;
-
-}
-
-.header__navigation a{
     text-decoration: none;
     font-family: 'Roboto';
     font-weight: 500;
@@ -35,11 +33,76 @@
     letter-spacing: 2%;
 }
 
-.header__info a{
+
+.header__info a {
+    list-style: none;
     text-decoration: none;
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 2%;
+}
+
+
+.title {
+    font-family: Roboto;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+
+.head-button {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    text-align: center;
+
+}
+h3 {
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #212121;
+
+}
+
+.describe {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #757575;
+
+ 
+}
+
+
+
+
+
+.btn {
+    list-style: none;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.btn__btn-1 {
+    color: #FFFFFF;
+    background-color: #2196F3;
 }
