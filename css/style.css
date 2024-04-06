@@ -20,6 +20,7 @@
     line-height: 30.52px;
     letter-spacing: 0.03em;
     text-align: left;
+    color:#212121;
     
     
 }
@@ -27,6 +28,7 @@
 .header__navigation ul {
     list-style: none;
     text-decoration: none;
+    color:#212121;
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
@@ -77,17 +79,32 @@ h3 {
 
 }
 
-.describe {
+.description {
+    list-style: none;
+    text-decoration: none;
+ 
+}
+
+.description__title {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #212121;
+
+}
+
+.description__1, .description__2, .description__3, .description__4 {
     font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.03em;
     text-align: left;
-    color: #757575;
-
- 
-}
+    color: #757575; 
+} 
 
 h2 {
     font-family: Roboto;
@@ -115,4 +132,41 @@ h2 {
 .btn__btn-1 {
     color: #FFFFFF;
     background-color: #2196F3;
+}
+
+.footer {
+}
+.footer__logo a {
+    text-decoration: none;
+    list-style: none;
+    font-family: Raleway;
+    color: #212121;  
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30.52px;
+    letter-spacing: 0.03em;
+  
+}
+
+.footer__address {
+    font-style: normal;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+}
+
+.footer__info a {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 2%;  
+    font-style: normal;
+      
 }
