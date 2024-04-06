@@ -24,7 +24,7 @@
     
 }
 
-.header__navigation a {
+.header__navigation ul {
     list-style: none;
     text-decoration: none;
     font-family: 'Roboto';
@@ -35,7 +35,7 @@
 }
 
 
-.header__info a {
+.header__info ul {
     list-style: none;
     text-decoration: none;
     font-family: 'Roboto';
@@ -101,7 +101,7 @@ h2 {
 
 
 
-.btn {
+.btn ul {
     list-style: none;
     text-decoration: none;
     font-family: Roboto;
@@ -109,7 +109,7 @@ h2 {
     font-weight: 500;
     line-height: 26px;
     letter-spacing: 0.03em;
-    text-align: center;
+    
 }
 
 .btn__btn-1 {
