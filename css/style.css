@@ -22,7 +22,6 @@
     text-align: left;
     color:#212121;
     
-    
 }
 
 .header__navigation ul {
@@ -64,8 +63,15 @@
     line-height: 30px;
     letter-spacing: 0.06em;
     text-align: center;
+    cursor: pointer;
 
 }
+
+.head-button:hover {
+    background-color: #2196F3;
+    color:#FFFFFF;
+}
+
 h3 {
     list-style: none;
     text-decoration: none;
