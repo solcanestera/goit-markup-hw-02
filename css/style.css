@@ -3,12 +3,12 @@
     --gray: #757575;
     --black: #212121;
     --white: #FFFFFF;
-    --primary-font: 'Roboto';
-    --secondary-font: 'Raleway';
+    --primary-font: 'Roboto' sans-serif;
+    --secondary-font: 'Raleway' sans-serif;
 }
 
 .header {
-
+  
 }
 
 .header__logo a {
@@ -27,14 +27,22 @@
 .header__navigation ul {
     list-style: none;
     text-decoration: none;
-    color:#212121;
+    color:#212121; 
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 2%;
 }
+.header__navigation a {
+    color:#212121;
+    text-decoration: none;
+}
 
+.header__navigation a:focus,
+.header__navigation :hover {
+    color:#2196F3;
+}
 
 .header__info ul {
     list-style: none;
@@ -46,9 +54,22 @@
     letter-spacing: 2%;
 }
 
+.header__info a {
+    color:#212121;
+    text-decoration: none;
+}
+
+.header__info a:focus,
+.header__info a:hover {
+    color:#2196F3;
+}
+
+body {
+    font-family: Roboto;
+    color:#212121
+}
 
 .title {
-    font-family: Roboto;
     font-size: 44px;
     font-weight: 900;
     line-height: 60px;
@@ -57,7 +78,6 @@
 }
 
 .head-button {
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 700;
     line-height: 30px;
@@ -75,13 +95,12 @@
 h3 {
     list-style: none;
     text-decoration: none;
-    font-family: Roboto;
     font-size: 14px;
     font-weight: 700;
     line-height: 16.41px;
     letter-spacing: 0.03em;
     text-align: left;
-    color: #212121;
+
 
 }
 
@@ -92,18 +111,17 @@ h3 {
 }
 
 .description__title {
-    font-family: Roboto;
+
     font-size: 14px;
     font-weight: 700;
     line-height: 16.41px;
     letter-spacing: 0.03em;
     text-align: left;
-    color: #212121;
+
 
 }
 
 .description__1, .description__2, .description__3, .description__4 {
-    font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -112,21 +130,18 @@ h3 {
 } 
 
 h2 {
-    font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
     line-height: 42.19px;
     letter-spacing: 0.03em;
     text-align: center;
-    color: #212121;
-}
 
+}
 
 
 .btn ul {
     list-style: none;
     text-decoration: none;
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
     line-height: 26px;
@@ -135,11 +150,42 @@ h2 {
     
 }
 
+
 .btn__btn-1 {
     color: #FFFFFF;
     background-color: #2196F3;
 }
 
+.btn__btn-1:hover,
+.btn:focus {
+    background-color: #2196F3;
+    color:#FFFFFF;
+}
+
+
+.btn__btn-2:hover,
+.btn:focus {
+    background-color: #2196F3;
+    color:#FFFFFF;
+}
+
+.btn__btn-3:hover,
+.btn:focus {
+    background-color: #2196F3;
+    color:#FFFFFF;
+}
+
+.btn__btn-4:hover,
+.btn:focus {
+    background-color: #2196F3;
+    color:#FFFFFF;
+}
+
+.btn__btn-5:hover,
+.btn:focus {
+    background-color: #2196F3;
+    color:#FFFFFF;
+}
 .footer {
 }
 .footer__logo a {
@@ -156,7 +202,6 @@ h2 {
 
 .footer__address {
     font-style: normal;
-    font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
     line-height: 16.41px;
@@ -165,14 +210,21 @@ h2 {
 
 }
 
-.footer__info a {
+.footer__address-info ul {
     list-style: none;
     text-decoration: none;
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 2%;  
     font-style: normal;
+
       
+}
+
+
+
+.footer__address-info a:hover,
+.footer__address-info a:focus {
+    color:#2196F3;
 }
